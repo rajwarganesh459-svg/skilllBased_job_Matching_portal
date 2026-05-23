@@ -14,7 +14,8 @@ def get_db():
         password=os.getenv("MYSQLPASSWORD"),
         database=os.getenv("MYSQLDATABASE"),
         port=int(os.getenv("MYSQLPORT", 3306)),
-        use_pure=True
+         connection_timeout=30
+       # use_pure=True
     )
 
 # ---------------- HOME ----------------

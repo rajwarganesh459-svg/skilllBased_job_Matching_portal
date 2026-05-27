@@ -9,15 +9,12 @@ app.secret_key = "secret123"
 # ---------------- DATABASE ----------------
 def get_db():
     return mysql.connector.connect(
-        host=os.getenv("MYSQLHOST"),
-        user=os.getenv("MYSQLUSER"),
-        password=os.getenv("MYSQLPASSWORD"),
-        database=os.getenv("MYSQLDATABASE"),
-        port=int(os.getenv("MYSQLPORT", 3306)),
-         connection_timeout=30
-       # use_pure=True
+        host="sql208.infinityfree.com",
+        user="if0_42029111",
+        password="UNHlydT1m2vo",
+        database="if0_42029111_jobportal",
+        port=3306
     )
-
 # ---------------- HOME ----------------
 @app.route('/')
 def home():

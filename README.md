@@ -73,7 +73,7 @@ WebProject/
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/web_development_project.git
+git clone https://github.com/rajwarganesh459-svg/skilllBased_job_Matching_portal
 cd web_development_project
 
 ### 2. Install Dependencies
